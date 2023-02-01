@@ -1,10 +1,16 @@
 {
-  "name": "node-basic",
+  "name": "excel-json",
   "version": "1.0.0",
-  "description": "nodejs init",
-  "author": "Ricardo Campo <r.campo.genei@gmail.com>",
+  "description": "excel-json",
+  "author": "Ricardo Campo <riccamgom@gmail.com>",
   "license": "MIT",
   "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "debug": "nodemon --inspect=0.0.0.0 app.js",
+    "test": "jest"
+  },
   "keywords": [
     "nodejs",
     "bootstrap",
@@ -12,6 +18,9 @@
   ],
   "dependencies": {
     "express": "^4.16.4",
-    "soap": "^1.0.0"
+    "jest": "^29.4.1",
+    "multer": "^1.4.5-lts.1",
+    "req-sanitizer": "^0.2.1",
+    "xlsx": "^0.18.5"
   }
 }
