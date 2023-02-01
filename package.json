@@ -1,0 +1,17 @@
+{
+  "name": "node-basic",
+  "version": "1.0.0",
+  "description": "nodejs init",
+  "author": "Ricardo Campo <r.campo.genei@gmail.com>",
+  "license": "MIT",
+  "main": "app.js",
+  "keywords": [
+    "nodejs",
+    "bootstrap",
+    "express"
+  ],
+  "dependencies": {
+    "express": "^4.16.4",
+    "soap": "^1.0.0"
+  }
+}
