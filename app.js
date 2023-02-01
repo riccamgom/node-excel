@@ -72,7 +72,6 @@ router.post("/writerexcel", function (req, res, next) {
 });
 
 //Express
-app.use(express.static(pathv));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(reqSanitizer());
